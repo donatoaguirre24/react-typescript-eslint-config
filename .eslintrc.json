@@ -1,0 +1,25 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": ["airbnb", "plugin:react/recommended"],
+  "plugins": ["prettier", "react", "react-hooks"],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2018
+  },
+  "rules": {
+    "prettier/prettier": ["error"],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  },
+  "globals": {
+    "window": true,
+    "document": true,
+    "localStorage": true,
+    "navigator": true
+  },
+  "parser": "babel-eslint"
+}
