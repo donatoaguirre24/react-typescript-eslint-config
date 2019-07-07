@@ -4,14 +4,17 @@
     "es6": true,
     "node": true
   },
-  "extends": ["airbnb", "plugin:react/recommended"],
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
   "plugins": ["prettier", "react", "react-hooks"],
+  "parser": "babel-eslint",
   "parserOptions": {
     "sourceType": "module",
-    "ecmaVersion": 2018
+    "ecmaVersion": 2018,
+    "ecmaFeatures": {
+      "jsx": true
+    }
   },
   "rules": {
-    "arrow-parens": ["error", "always"],
     "prettier/prettier": ["error"],
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn"
@@ -21,6 +24,5 @@
     "document": true,
     "localStorage": true,
     "navigator": true
-  },
-  "parser": "babel-eslint"
+  }
 }
