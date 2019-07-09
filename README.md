@@ -4,7 +4,7 @@ My personal eslint + prettier config based on eslint-plugin-react and prettier.
 
 Run the following commands:
 
-- `npx create-react-app projectName`
+- `npx create-react-app projectName --typescript`
 
 - `cd projectName `
 
