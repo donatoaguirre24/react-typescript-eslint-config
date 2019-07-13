@@ -3,7 +3,9 @@
     "es6": true,
     "jest": true,
     "node": true,
-    "browser": true
+    "browser": true,
+    "commonjs": true,
+    "serviceworker": true
   },
   "extends": [
     "eslint:recommended",
@@ -28,12 +30,6 @@
     "@typescript-eslint/explicit-function-return-type": 0,
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/indent": "off",
-    "no-console": "off"
-  },
-  "globals": {
-    "window": true,
-    "document": true,
-    "localStorage": true,
-    "navigator": true
+    "no-console": "warn"
   }
 }
