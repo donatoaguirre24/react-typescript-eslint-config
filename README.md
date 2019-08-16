@@ -8,6 +8,6 @@ Run the following commands:
 
 - `cd projectName `
 
-- `yarn add -D prettier typescript eslint-config-prettier eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks @typescript-eslint/eslint-plugin @typescript-eslint/parser`
+- `yarn add -D prettier typescript eslint-config-prettier eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-import`
 
 Then create the **.eslintrc.json** and **.prettierrc** files using the provided config
