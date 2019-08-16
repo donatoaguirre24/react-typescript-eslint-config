@@ -9,6 +9,7 @@
   },
   "extends": [
     "eslint:recommended",
+    "eslint-plugin-import",
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
     "prettier/@typescript-eslint",
@@ -18,7 +19,7 @@
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "sourceType": "module",
-    "ecmaVersion": 2018,
+    "ecmaVersion": 2019,
     "ecmaFeatures": {
       "jsx": true
     }
@@ -30,6 +31,7 @@
     "@typescript-eslint/explicit-function-return-type": 0,
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/indent": "off",
-    "no-console": "warn"
+    "no-console": "warn",
+    "camelcase": "error",
   }
 }
