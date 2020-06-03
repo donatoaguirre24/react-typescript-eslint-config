@@ -1,13 +1,13 @@
-# eslint-prettier-config
+# ESlint + Prettier + Typescript config
 
-My personal eslint + prettier config based on eslint-plugin-react and prettier.
+My personal ESLint, Prettier and Typescript config for React projects.
 
-Run the following commands:
+## Run the following commands:
 
-- `npx create-react-app projectName --typescript`
+- `npx create-react-app project-name --template typescript`
 
-- `cd projectName `
+- `cd project-name `
 
-- `yarn add -D prettier typescript eslint-config-prettier eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-import`
+- `yarn add -D @typescript-eslint/parser @typescript-eslint/eslint-plugin prettier eslint-config-prettier eslint-plugin-prettier eslint-plugin-jest`
 
-Then create the **.eslintrc.json** and **.prettierrc** files using the provided config
+Then create the **.eslintrc** and **.prettierrc** files using the provided config
