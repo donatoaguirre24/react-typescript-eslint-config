@@ -8,6 +8,6 @@ My personal ESLint, Prettier and Typescript config for React projects.
 
 - `cd project-name `
 
-- `yarn add -D @typescript-eslint/parser @typescript-eslint/eslint-plugin prettier eslint-config-prettier eslint-plugin-prettier eslint-plugin-jest`
+- `yarn add -D @typescript-eslint/parser @typescript-eslint/eslint-plugin prettier eslint-config-prettier eslint-plugin-prettier eslint-plugin-jest eslint-plugin-testing-library`
 
 Then create the **.eslintrc** and **.prettierrc** files using the provided config
